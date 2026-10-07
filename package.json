@@ -1,0 +1,14 @@
+{
+  "name": "verzel-store-playwright",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:checkout": "playwright test tests/checkout.spec.ts",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "typescript": "^5.0.0"
+  }
+}
